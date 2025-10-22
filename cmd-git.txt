@@ -1,0 +1,37 @@
+P2 - Usuario para poder setear con gitHub:
+	1 - $ git config --global user.name "A TEs"
+	2 - $ git config --global user.email tapiaa665@gmail.com
+	3 - $ git config --global core.editor "code --wait" //configuración de Vs-Code
+	5- ($ git config --global -e //muestra un archivo de configuración) 
+	4 - ($ git config --global core.autocrlf true //salto de linea ?)
+	* $ git config --global -h //LISTA DE COMANDOS 
+
+P3 - Iniciar un repositorio en la carpeta del proyecto
+	1 - $ git init //inicializa el repositorio local *
+
+P4 - Abrir Vs-Code desde terminal gitbash 
+	- $ code .
+	- cerrar consola de gitbash
+
+P5 - Abrir terminal en Vs-Code
+	ctrl + ñ (+ select gitbash)
+
+P6 - Comenzar con el monitoreo de estados 
+	- $ git status (permite ver en que estado se encuentra el archivo)
+
+P7 - Agregar al stage (estado 2)
+	- $ git add (.) o (archivo.cualquiera) añade dicho archivo al stage
+	- repetir $ git status
+	* $ git rm --cached archivo.cualquiera (puede sacar del estado 2 cualquier archivo que por error se hubiese 							añadido)
+P8 - FOTOGRAFIA
+	- $ git commit -m "escribe entre comillas dobles el mensaje corto" "existen metodologías, códigos, etiqutas, etc"
+	- repetir $ git status
+
+P9 - Historial de commits ()
+	- $ git log --oneline
+
+P10 - Crear un repositorio en GitHub para loguear tu codigo
+	- $ git remote add origin (https://github.com/Tapia1579/html-module-one.git)
+				  (url del repositorio creado en github)
+P11 - Realizar un git push
+	- $ git push origin main
